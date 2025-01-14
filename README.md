@@ -7,3 +7,9 @@ ini berisikan
 4. Networking: Backend dan database harus saling terhubung dengan jaringan privat.
 5. Volume: Database PostgreSQL memerlukan penyimpanan data yang persisten.
 6. Monitoring : Grafana
+
+langkah running:
+docker-compose up --build -d
+
+langkah matikan:
+docker-compose down
